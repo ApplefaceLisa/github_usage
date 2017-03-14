@@ -1,4 +1,4 @@
-# How to adding an existing project to GitHub using the command line
+# How to add an existing project to GitHub using the command line
 
 - Create a new repository on GitHub. 
 
