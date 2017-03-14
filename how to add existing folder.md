@@ -38,7 +38,9 @@
   $ git push -f origin master       // force push
   ```
   
+  ### Example
   
+  ![add project](addProjectToRepo.JPG)
   
 # Reference
 
