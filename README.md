@@ -56,4 +56,19 @@ notes about github usage
   - Connect your Local to your Remote : `$ git remote add origin <URLFROMGITHUB>`
   - Push Work to your Remote : `$ git push origin master`
   
+  - Other operations:
+    - Add remote connections : `$ git remote add <REMOTENAME> <URL>`
+    - Set a URL to a remote : `$ git remote set-url <REMOTENAME> <URL>`
+    - Pull in changes : `$ git pull <REMOTENAME> <BRANCHNAME>`
+    - View remote connections : `$ git remote -v`
+    - Push changes : `$ git push <REMOTENAME> <BRANCH>`
+
+- Forks And Clones
+  
+  When you _**fork**_ a repository, you're creating a copy of it on your GitHub account. Forks are used for creating your own version of a project or contributing back fixes or features to the original project.
+  
+  Once a project is forked, you then _**clone**_ (aka copy) it from GitHub to your computer to work on locally.
+  ![fork vs. clone](forkVSclone.JPG)
+
+
 
