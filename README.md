@@ -86,3 +86,42 @@ notes about github usage
   Git repositories use branches to isolate work when needed. It's common practice when working on a project or with others on a project to create a branch to keep your changes in until they are ready. This way you can do your work while the main, commonly named 'master', branch stays stable. When your branch is ready, you merge it back into 'master'.
   
   ![branches not just for birds](branches.JPG)
+  
+  [how branches work](guides.github.com/overviews/flow)
+  
+  - Create a branch
+  
+    When you create a branch, Git copies everything from the current branch you're on and places it in the branch you've requested.
+    - Create a branch and name it `"add-<username>"`, where 'username' is your username. Case sensitive!
+      `$ git branch <BRANCHNAME>`
+    - Go onto your new branch: `$ git checkout <BRANCHNAME>`
+    
+  - Create or change files  
+  
+    under '/contributors' folder
+    
+  - Check-in
+    ```
+    $ git add <FILENAME>
+    $ git commit -m "<commit message>"
+    $ git push origin <BRANCHNAME>
+    ```
+    
+- Add a collaborator to your project
+
+  Settings -> Collaborators -> input a name and add
+  
+- Keep your file up to date by pulling in changes from collaborators
+- Submit a Pull Request on the original repository
+
+  On remote branch repo, click "compare and pull", continue...
+  
+- Merge your branch locally, delete old branch and pull from upstream
+  - Move into the branch you want to merge into, e.g. branch 'gh-pages' : `$ git checkout gh-pages`
+  - Tell Git what branch you want to merge in : `$ git merge <BRANCHNAME>`
+  - Tidy up by deleting your feature branch now that it has been merged : `$ git branch -d <BRANCHNAME>`
+  - Delete the branch from your fork on GitHub : `$ git push <REMOTENAME> --delete <BRANCHNAME>`  
+  - Pull from Upstream : `$ git pull upstream gh-pages`
+  
+  
+  
