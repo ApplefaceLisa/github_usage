@@ -13,10 +13,37 @@ notes about github usage
   
   - Configure
   
-    Open **terminal** 
+    Open **terminal** (or Bash)
     - Verify installation:  `$ git --version`
     - Set name: `$ git config --global user.name "<Your Name>"`
     - Set email: `$ git config --global user.email "<youremail@example.com>"`
     
-  - Repository
+- Repository
   
+  A _**repository**_ is essentially a project. You can imagine it as a project's folder with all the related files inside of it. In fact, that's what it will look like on your computer anyways.
+  
+  - Create a Repository
+  
+    - To make a new folder: `$ mkdir hello-world`
+    - To go into that folder: `$ cd hello-world`
+    - To create a new Git instance for a project: `$ git init`
+    - Verify if it's a Git repo: `$ git status`
+  
+- Commit it
+  - Create a New File, e.g. readme.txt under hellow_world folder
+  - Status, Add and Commit Changes
+    - Check repo status: `$ git status`
+    - Add file to do commit: `$ git add readme.txt` (tell git which file you gonna commit)
+    - Commit file: `$ git commit -m "<your commit message>"`
+  - Make More Changes
+    -  view the difference between the file now and how it was at your last commit : `$ git diff`
+
+- Use GitHub
+  - Create a GitHub Account : [github.com](http://github.com/)
+  - Add username to Git
+  
+    Add your GitHub username to your Git configuration : `$ git config --global user.username <USerNamE>`
+  
+  
+
+
