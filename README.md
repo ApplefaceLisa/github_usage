@@ -69,6 +69,20 @@ notes about github usage
   
   Once a project is forked, you then _**clone**_ (aka copy) it from GitHub to your computer to work on locally.
   ![fork vs. clone](forkVSclone.JPG)
+  
+  Fork a repo to your Github, then copy it's URL, then clone it locally:
+  `$ git clone <URLFROMGITHUB>`
+  
+  Now you've got a copy of the repository on your computer and it is automatically connected to the remote repository (your forked copy) on your GitHub account.
+  
+  - Connect to the Original Repository
+    - get the URL of the original repo
+    - `$ git remote add upstream <originalRepoURL>`
+    
+- Branches
 
-
-
+  Create a new branch on your fork for your contribution.
+  
+  Git repositories use branches to isolate work when needed. It's common practice when working on a project or with others on a project to create a branch to keep your changes in until they are ready. This way you can do your work while the main, commonly named 'master', branch stays stable. When your branch is ready, you merge it back into 'master'.
+  
+  ![branches not just for birds](branches.JPG)
