@@ -53,5 +53,7 @@ notes about github usage
     - Don't initialize with a README because we already have a file, locally, named 'readme.txt'.
     - Leave .gitignore and license on 'none'.
   
-
+  - Connect your Local to your Remote : `$ git remote add origin <URLFROMGITHUB>`
+  - Push Work to your Remote : `$ git push origin master`
+  
 
