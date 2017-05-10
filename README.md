@@ -44,6 +44,14 @@ notes about github usage
   
     Add your GitHub username to your Git configuration : `$ git config --global user.username <USerNamE>`
   
+- Remote Control
+  
+  Connect your local and remote repositories and push changes. (push / pull)
+  - Create a Remote Repository   
+    - Create a new repo on Github, make it's name exactly same as your local repository's name. 
+    - Make it public.
+    - Don't initialize with a README because we already have a file, locally, named 'readme.txt'.
+    - Leave .gitignore and license on 'none'.
   
 
 
