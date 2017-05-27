@@ -166,3 +166,5 @@ Steps:
   $ git push origin master
   # Pushes the changes in your local repository up to the remote repository you specified as the origin  
   ```
+
+#### [Recommended Setup: GitHub, Cloud9, Heroku](https://github.com/saasbook/courseware/wiki/Recommended-Setup:-GitHub,-Cloud9,-Heroku)
